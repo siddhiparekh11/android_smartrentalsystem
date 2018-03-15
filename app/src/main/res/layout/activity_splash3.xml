@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are the different systems that you wish to use in your home/industry?" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/sp3r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HVAC and automatic lighting system (energy efficient resource availability)"
+            android:onClick="onRadioButtonClick"
+            />
+
+        <RadioButton
+            android:id="@+id/sp3r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="secure home" />
+
+        <RadioButton
+            android:id="@+id/sp3r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="both A and B" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/splash3Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onSplash3Next"/>
+</LinearLayout>

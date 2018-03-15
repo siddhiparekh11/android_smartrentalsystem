@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#17A589</color>
+    <color name="colorPrimaryDark">#17A588</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightblue">#AED6F1</color>
+    <color name="darkblue">#2471A3</color>
+    <color name="violet">#8E44AD</color>
+    <color name="darkmaroon">#C0392B </color>
+    <color name="mediumred">#CB4335</color>
+    <color name="lightgreen">#17A589</color>
+    <color name="parrotgreen">#229954</color>
+    <color name="wood">#D35400</color>
+    <color name="darkorange">#E67E22</color>
+    <color name="grey">#99A3A4</color>
+
+    <color name="primary_600">#2471A3</color>
+    <color name="primary">#8E44AD</color>
+
+    <color name="black">#212121</color>
+    <color name="black_light">#757575</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+
+    <color name="garcon">#C90000</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#C8000F</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+</resources>
+

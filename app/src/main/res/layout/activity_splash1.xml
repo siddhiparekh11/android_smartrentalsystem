@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What kind of energy efficient system is currently used in your home/industry?" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <RadioButton
+        android:id="@+id/spr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="efficient energy with wind power"
+        android:onClick="onRadioButtonClick"
+        />
+
+    <RadioButton
+        android:id="@+id/spr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClick"
+        android:text="efficient energy with solar power" />
+
+    <RadioButton
+        android:id="@+id/spr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClick"
+        android:text="non efficient and expensive energy system" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/splash1Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onSplash1Next"/>
+
+
+
+
+</LinearLayout>

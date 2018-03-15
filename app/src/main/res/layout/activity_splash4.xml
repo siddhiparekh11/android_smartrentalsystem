@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you planning to rent or own the energy efficient system ?" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/sp4r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent or Lease"
+            android:onClick="onRadioButtonClick"
+            />
+
+        <RadioButton
+            android:id="@+id/sp4r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="Own" />
+
+        <RadioButton
+            android:id="@+id/sp4r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="First Rent, then Own" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/splash4Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onSplash4Next"/>
+</LinearLayout>

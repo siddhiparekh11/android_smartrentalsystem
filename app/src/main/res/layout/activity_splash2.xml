@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is the approximate percentage of savings that you wish to make every month, compared to the current charges you pay?" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/sp2r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="upto 20%, by updating/replacing my existing efficient energy systems"
+            android:onClick="onRadioButtonClick"
+            />
+
+        <RadioButton
+            android:id="@+id/sp2r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="upto 90%, by installing a new energy efficient system" />
+
+        <RadioButton
+            android:id="@+id/sp2r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClick"
+            android:text="I am satisfied with my current energy efficient system" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/splash2Next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:onClick="onSplash2Next"/>
+
+</LinearLayout>
